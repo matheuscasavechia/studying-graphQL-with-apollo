@@ -2,6 +2,10 @@
   "name": "real-time-market-chat",
   "version": "0.0.1",
   "private": true,
+  "author": {
+    "name": "Matheus Casavechia",
+    "email": "matheus.casavechi1@gmail.com"
+   },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
