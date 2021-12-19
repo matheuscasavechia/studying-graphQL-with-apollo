@@ -3,7 +3,7 @@ const finnhub = require('finnhub');
 
 const pubsub = new PubSub();
 const api_key = finnhub.ApiClient.instance.authentications.api_key;
-api_key.apiKey = 'c5qp11iad3ia2lmpn9fg';
+api_key.apiKey = 'brqbrdfrh5rc4v2pk2ng'; // Replace with your API KEY (https://finnhub.io/register)
 const finnhubClient = new finnhub.DefaultApi();
 
 const RATES_UPDATED = 'RATES_UPDATED';
