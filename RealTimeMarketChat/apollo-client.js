@@ -4,7 +4,7 @@ import {WebSocketLink} from 'apollo-link-ws';
 import {getMainDefinition} from 'apollo-utilities';
 import {ApolloClient, InMemoryCache} from 'apollo-boost';
 
-const GRAPHQL_URI = 'localhost:4000';
+const GRAPHQL_URI = '192.168.182.136.:5500';
 const wsLink = new WebSocketLink({
   uri: `ws://${GRAPHQL_URI}/graphql`,
   options: {

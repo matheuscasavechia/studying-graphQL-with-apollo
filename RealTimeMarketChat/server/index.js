@@ -5,7 +5,7 @@ const {createServer} = require('http');
 const typeDefs = require('./schema');
 const resolvers = require('./resolvers');
 
-const PORT = 4000;
+const PORT = 5500;
 const app = express();
 const server = new ApolloServer({typeDefs, resolvers});
 
